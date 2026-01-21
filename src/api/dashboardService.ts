@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://admin-dashboard-api-8g3j.onrender.com/api';
 
 export const dashboardService = {
     getStats: async () => {
